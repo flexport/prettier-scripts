@@ -1,6 +1,5 @@
 #!/bin/bash
 set -e
-set -a
 script_dir=$(dirname $0)
 GIT_COMMITTER_NAME="prettier" GIT_COMMITTER_EMAIL="prettier@flexport.com" \
   git commit --author="prettier <prettier@flexport.com>" \
